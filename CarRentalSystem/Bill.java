@@ -7,7 +7,7 @@ public class Bill{
 
     Bill(Reservation reservation){
         this.reservation=reservation;
-        this.totalBillAmount=totalBillAmount;
+        this.totalBillAmount= computeAmount();
         this.isPaid =false;
     }
 
