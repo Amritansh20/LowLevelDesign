@@ -2,6 +2,7 @@ package CarRentalDesign;
 
 import java.time.LocalDateTime;
 
+
 public class Booking{
         private String id;
         private Customer customer;
