@@ -13,4 +13,5 @@ public class Location{
         this.state=state;
         this.city=city;
     }
+    
 }
