@@ -9,6 +9,7 @@ public class Booking{
         private Vehicle vehicle;
         private LocalDateTime startTime;
         private LocalDateTime endTime;
+    
         private String status;
 
         public Booking(String id, Customer customer, Vehicle vehicle, LocalDateTime startTime, LocalDateTime endTime){
