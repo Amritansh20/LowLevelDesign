@@ -12,6 +12,7 @@ public class Main{
         List<User> users = addUser();
         List<Vehicle> vehicles = addVehicle();
         List<Store> stores = addStore(vehicles);
+        
 
         VehicleRentalSystem vehicleRentalSystem = new VehicleRentalSystem(users, stores);
         User user = users.get(0);
